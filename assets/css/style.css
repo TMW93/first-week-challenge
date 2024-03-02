@@ -8,11 +8,14 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Top header in website */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /* Giving Header a Position to Allow Box-Modelling */
+    position: relative; 
 }
 
 .header h1 {
@@ -39,6 +42,18 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+/* Horisen title always to the Left Hand Side on Header */
+.webiste-title {
+    position: absolute;
+    left: 0%;
+}
+
+/* Site Navigation Bar Always to the Right Hand Side on Header*/
+.site-nav {
+    position: absolute;
+    right: 5%;
 }
 
 a {
